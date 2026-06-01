@@ -1,0 +1,39 @@
+{
+    "format_version": 2,
+    "header": {
+        "pack_scope": "world",
+        "name": "Waypoints & Time & Weather Controling",
+        "description": "By: Zatta Studios",
+        "uuid": "99ca5bcc-afb3-4222-9a6b-68c10fcee49f",
+        "version": [1, 0, 1],
+        "min_engine_version": [1, 26, 0]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "72779c4e-aadf-408a-a6d4-87c36507408f",
+            "version": [1, 0, 1]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "ac5b3358-5656-4b03-a250-857ac3dd5d05",
+            "version": [1, 0, 0],
+            "entry": "scripts/index.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.6.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "2.0.0"
+        },
+        {
+            "uuid": "22f9a7a8-8dd8-4e13-bf45-b0a67a6bd8d8",
+            "version": [1, 0, 1]
+        }
+    ]
+}
